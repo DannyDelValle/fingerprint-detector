@@ -1,128 +1,74 @@
 import cv2
-import numpy as np
 import os
 import timeit
-
-score = 0
-bad_score = 0
+from concurrent.futures import ThreadPoolExecutor
 
 def preprocess_image(image):
-    """
-    Mejora de bordes
-    """
-    image = cv2.GaussianBlur(image, (3, 3), 0)
-    return image
+    return cv2.GaussianBlur(image, (3, 3), 0)
 
-def get_test_image(carpet, num, gen, pos, type_fin, etc):
-    """
-    Obtener imagen de prueba
-    """
-    # print(f"Imagen de prueba: {num}__{gen}_{pos}_{type_fin}_finger_{etc}")
-    image_test = cv2.imread(f"./test_fingerprint/{carpet}/{num}__{gen}_{pos}_{type_fin}_finger_{etc}")
-    image_test = preprocess_image(image_test)
-    original = f"{num}__{gen}_{pos}_{type_fin}_finger.BMP"
-    return image_test, original
-
-def test_image(score, bad_score, image_test, original):
-    max_acurracy = 0
-    for file in [file for file in os.listdir("base_fingerprint")]:
-        fingerprint_database_image = cv2.imread("./base_fingerprint/"+file)
-        fingerprint_database_image = preprocess_image(fingerprint_database_image)
-        
+def load_database_images(folder_path):
+    db_images = {}
+    for filename in os.listdir(folder_path):
+        image_path = os.path.join(folder_path, filename)
+        image = cv2.imread(image_path)
+        processed_image = preprocess_image(image)
         sift = cv2.SIFT_create()
-        keypoints_1, descriptors_1 = sift.detectAndCompute(image_test, None)
-        keypoints_2, descriptors_2 = sift.detectAndCompute(fingerprint_database_image, None)
-        
-        flann_params = dict(algorithm=1, trees=10)
-        matcher = cv2.FlannBasedMatcher(flann_params, {})
-        matches = matcher.knnMatch(descriptors_1, descriptors_2, k=2)
-        
-        match_points = []
-        for p, q in matches:
-            if p.distance < 0.7 * q.distance:
-                match_points.append(p)
+        keypoints, descriptors = sift.detectAndCompute(processed_image, None)
+        db_images[filename] = (keypoints, descriptors)
+    return db_images
 
-        keypoints = min(len(keypoints_1), len(keypoints_2))
-        acurracy = len(match_points) / keypoints
+def match_images(desc1, desc2):
+    flann_params = dict(algorithm=1, trees=10)
+    matcher = cv2.FlannBasedMatcher(flann_params, {})
+    matches = matcher.knnMatch(desc1, desc2, k=2)
+    match_points = [p for p, q in matches if p.distance < 0.7 * q.distance]
+    return match_points
 
-        if max_acurracy < acurracy:
-            max_acurracy = acurracy
-            max_acurracy = int(max_acurracy * 10000) / 10000
+def process_file(filename, folder, db_images):
+    score = 0
+    bad_score = 0
 
-        # guardar en un archivo txt el nombre de la imagen y el porcentaje de coincidencia
-        if keypoints and (len(match_points) / keypoints) > 0.5: 
-            # print(f"% Coincidencia: {len(match_points) / keypoints * 100}")
-            # print(f"ID de la huella desconocida: {file}")
-            if file == original:
-                # mostrar imagen fingerprint_database_image
-                # cv2.imshow("Imagen de la base de datos", fingerprint_database_image)
-                # cv2.waitKey(0)
-                # cv2.destroyAllWindows()
-                with open("resultados2.txt", "a") as file:
-                    file.write(f"Imagen: {original}\tCoincidencia: {len(match_points) / keypoints * 100}\n")
-                # print("La huella desconocida pertenece a la persona de la base de datos. Acurracy: ", max_acurracy, file, original)
-                # mostrar imagen que coincide
-                score = score + 1
-                return score, bad_score
-            else:
-                with open("resultados2.txt", "a") as file:
-                    file.write(f"ERROR\tImagen: {original}\tCoincidencia: {len(match_points) / keypoints * 100}\n")
-                # print("La huella desconocida no pertenece a la persona de la base de datos")
-                bad_score = bad_score + 1
-        elif file == os.listdir("base_fingerprint")[-1]:
-            with open("resultados2.txt", "a") as file:
-                file.write(f"ERROR\tImagen: {original}\n")
-            print("La huella desconocida no pertenece a la persona de la base de datos")
-            bad_score = bad_score + 1
-            return score, bad_score
-        print(f"Score: {score}\tBad Score: {bad_score}\t{max_acurracy}\tProcesando imagen: {original} con {file}", end="\r")
+    image_path = os.path.join("./test_fingerprint", folder, filename)
+    test_image = cv2.imread(image_path)
+    processed_test_image = preprocess_image(test_image)
 
-        
-def get_score(score, bad_score):
-    for file in [file for file in os.listdir("test_fingerprint/Altered-Easy")]:
-        parametres = file.split("_")
-        num = parametres[0]
-        gen = parametres[2]
-        pos = parametres[3]
-        type_fin = parametres[4]
-        etc = parametres[6]
-        image_test, original = get_test_image('Altered-Easy', num, gen, pos, type_fin, etc)
-        score, bad_score = test_image(score, bad_score, image_test, original)
+    sift = cv2.SIFT_create()
+    test_keypoints, test_descriptors = sift.detectAndCompute(processed_test_image, None)
 
-    for file in [file for file in os.listdir("test_fingerprint/Altered-Medium")]:
-        parametres = file.split("_")
-        num = parametres[0]
-        gen = parametres[2]
-        pos = parametres[3]
-        type_fin = parametres[4]
-        etc = parametres[6]
-        image_test, original = get_test_image('Altered-Medium', num, gen, pos, type_fin, etc)
-        score, bad_score = test_image(score, bad_score, image_test, original)
+    max_accuracy = 0
+    for db_filename, (db_keypoints, db_descriptors) in db_images.items():
+        match_points = match_images(test_descriptors, db_descriptors)
+        keypoints = min(len(test_keypoints), len(db_keypoints))
+        accuracy = 0 if keypoints == 0 else len(match_points) / keypoints
+        if max_accuracy < accuracy:
+            max_accuracy = accuracy
 
-    for file in [file for file in os.listdir("test_fingerprint/Altered-Hard")]:
-        parametres = file.split("_")
-        num = parametres[0]
-        gen = parametres[2]
-        pos = parametres[3]
-        type_fin = parametres[4]
-        etc = parametres[6]
-        image_test, original = get_test_image('Altered-Hard', num, gen, pos, type_fin, etc)
-        score, bad_score = test_image(score, bad_score, image_test, original)
+    if max_accuracy > 0.5:
+        score += 1
+    else:
+        bad_score += 1
 
     return score, bad_score
 
-# declarar main
 if __name__ == "__main__":
-    get_score(score, bad_score)
-    print(f"Score: {score}")
-    print(f"Bad Score: {bad_score}")
-    start = timeit.default_timer()    
-    # image_test, label_original = get_test_image('Altered-Hard', '101', 'M', 'Right', 'little', 'Zcut.BMP')
-    # cv2.imshow("Imagen de prueba", image_test)
-    # cv2.waitKey(0)
-    # cv2.destroyAllWindows()
-    # score, bad_score = test_image(score, bad_score, image_test, label_original)
+    start = timeit.default_timer()
+
+    db_images = load_database_images("./base_fingerprint")
+    
+    total_score = 0
+    total_bad_score = 0
+
+    with ThreadPoolExecutor() as executor:
+        for folder in ["Altered-Easy", "Altered-Medium", "Altered-Hard"]:
+            futures = {executor.submit(process_file, filename, folder, db_images): filename for filename in os.listdir(f"./test_fingerprint/{folder}")}
+            
+            for future in futures:
+                score, bad_score = future.result()
+                total_score += score
+                total_bad_score += bad_score
+                print(f"Score actual: {total_score}, Bad Score actual: {total_bad_score}")
+
     stop = timeit.default_timer()
-    # print(f"Score: {score}")
-    # print(f"Bad Score: {bad_score}")
+    print(f"Score final: {total_score}")
+    print(f"Bad Score final: {total_bad_score}")
     print(f"Tiempo de ejecución: {stop - start}")
