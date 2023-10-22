@@ -503,3 +503,4 @@ Imagen: 115__F_Right_middle_finger.BMP	Coincidencia: 94.78260869565217
 Imagen: 115__F_Right_ring_finger.BMP	Coincidencia: 82.75862068965517
 Imagen: 115__F_Right_ring_finger.BMP	Coincidencia: 87.77777777777777
 Imagen: 115__F_Right_ring_finger.BMP	Coincidencia: 93.33333333333333
+Imagen: 100__M_Left_index_finger.BMP	Coincidencia: 90.80459770114942
