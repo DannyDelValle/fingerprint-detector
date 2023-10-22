@@ -1,0 +1,269 @@
+Imagen: 100__M_Left_index_finger.BMP	Coincidencia: 79.72972972972973
+Imagen: 100__M_Left_index_finger.BMP	Coincidencia: 89.86486486486487
+Imagen: 100__M_Left_index_finger.BMP	Coincidencia: 93.91891891891892
+Imagen: 100__M_Left_little_finger.BMP	Coincidencia: 79.3103448275862
+Imagen: 100__M_Left_little_finger.BMP	Coincidencia: 78.44827586206897
+Imagen: 100__M_Left_little_finger.BMP	Coincidencia: 94.82758620689656
+Imagen: 100__M_Left_middle_finger.BMP	Coincidencia: 77.84810126582279
+Imagen: 100__M_Left_middle_finger.BMP	Coincidencia: 84.24242424242424
+Imagen: 100__M_Left_middle_finger.BMP	Coincidencia: 89.1566265060241
+Imagen: 100__M_Left_ring_finger.BMP	Coincidencia: 71.81208053691275
+Imagen: 100__M_Left_ring_finger.BMP	Coincidencia: 85.90604026845638
+Imagen: 100__M_Left_ring_finger.BMP	Coincidencia: 90.71428571428571
+Imagen: 100__M_Left_thumb_finger.BMP	Coincidencia: 78.80184331797236
+Imagen: 100__M_Left_thumb_finger.BMP	Coincidencia: 82.48847926267281
+Imagen: 100__M_Left_thumb_finger.BMP	Coincidencia: 91.70506912442397
+Imagen: 100__M_Right_index_finger.BMP	Coincidencia: 79.55801104972376
+Imagen: 100__M_Right_index_finger.BMP	Coincidencia: 70.71823204419888
+Imagen: 100__M_Right_index_finger.BMP	Coincidencia: 90.4494382022472
+Imagen: 100__M_Right_little_finger.BMP	Coincidencia: 73.04347826086956
+ERROR	Imagen: 100__M_Right_little_finger.BMP
+Imagen: 100__M_Right_little_finger.BMP	Coincidencia: 89.47368421052632
+Imagen: 100__M_Right_middle_finger.BMP	Coincidencia: 85.53459119496856
+Imagen: 100__M_Right_middle_finger.BMP	Coincidencia: 78.43137254901961
+Imagen: 100__M_Right_middle_finger.BMP	Coincidencia: 94.04761904761905
+Imagen: 100__M_Right_ring_finger.BMP	Coincidencia: 78.26086956521739
+Imagen: 100__M_Right_ring_finger.BMP	Coincidencia: 70.94017094017094
+Imagen: 100__M_Right_ring_finger.BMP	Coincidencia: 89.07563025210085
+Imagen: 100__M_Right_thumb_finger.BMP	Coincidencia: 82.07171314741036
+Imagen: 100__M_Right_thumb_finger.BMP	Coincidencia: 74.40944881889764
+Imagen: 100__M_Right_thumb_finger.BMP	Coincidencia: 92.1259842519685
+Imagen: 101__M_Left_index_finger.BMP	Coincidencia: 71.7948717948718
+Imagen: 101__M_Left_index_finger.BMP	Coincidencia: 73.07692307692307
+Imagen: 101__M_Left_index_finger.BMP	Coincidencia: 87.17948717948718
+Imagen: 101__M_Left_little_finger.BMP	Coincidencia: 83.09859154929578
+ERROR	Imagen: 101__M_Left_little_finger.BMP
+Imagen: 101__M_Left_little_finger.BMP	Coincidencia: 96.15384615384616
+Imagen: 101__M_Left_middle_finger.BMP	Coincidencia: 72.88135593220339
+Imagen: 101__M_Left_middle_finger.BMP	Coincidencia: 78.57142857142857
+Imagen: 101__M_Left_middle_finger.BMP	Coincidencia: 85.71428571428571
+ERROR	Imagen: 101__M_Left_ring_finger.BMP
+Imagen: 101__M_Left_ring_finger.BMP	Coincidencia: 72.6027397260274
+Imagen: 101__M_Left_ring_finger.BMP	Coincidencia: 86.3013698630137
+Imagen: 101__M_Left_thumb_finger.BMP	Coincidencia: 80.0
+Imagen: 101__M_Left_thumb_finger.BMP	Coincidencia: 78.18181818181819
+Imagen: 101__M_Left_thumb_finger.BMP	Coincidencia: 88.18181818181819
+Imagen: 101__M_Right_index_finger.BMP	Coincidencia: 76.85950413223141
+Imagen: 101__M_Right_index_finger.BMP	Coincidencia: 77.68595041322314
+Imagen: 101__M_Right_index_finger.BMP	Coincidencia: 93.38842975206612
+Imagen: 101__M_Right_little_finger.BMP	Coincidencia: 76.82926829268293
+ERROR	Imagen: 101__M_Right_little_finger.BMP
+Imagen: 101__M_Right_little_finger.BMP	Coincidencia: 87.8048780487805
+ERROR	Imagen: 101__M_Right_middle_finger.BMP
+Imagen: 101__M_Right_middle_finger.BMP	Coincidencia: 86.66666666666667
+Imagen: 101__M_Right_middle_finger.BMP	Coincidencia: 94.28571428571428
+Imagen: 101__M_Right_ring_finger.BMP	Coincidencia: 82.25806451612904
+Imagen: 101__M_Right_ring_finger.BMP	Coincidencia: 76.71232876712328
+Imagen: 101__M_Right_ring_finger.BMP	Coincidencia: 83.56164383561644
+Imagen: 101__M_Right_thumb_finger.BMP	Coincidencia: 81.30841121495327
+Imagen: 101__M_Right_thumb_finger.BMP	Coincidencia: 70.09345794392523
+Imagen: 101__M_Right_thumb_finger.BMP	Coincidencia: 95.32710280373831
+Imagen: 102__M_Left_index_finger.BMP	Coincidencia: 81.22270742358079
+Imagen: 102__M_Left_index_finger.BMP	Coincidencia: 78.82882882882883
+Imagen: 102__M_Left_index_finger.BMP	Coincidencia: 94.34782608695652
+ERROR	Imagen: 102__M_Left_little_finger.BMP
+ERROR	Imagen: 102__M_Left_little_finger.BMP
+Imagen: 102__M_Left_little_finger.BMP	Coincidencia: 90.72847682119205
+Imagen: 102__M_Left_middle_finger.BMP	Coincidencia: 76.84210526315789
+ERROR	Imagen: 102__M_Left_middle_finger.BMP
+Imagen: 102__M_Left_middle_finger.BMP	Coincidencia: 90.52631578947368
+Imagen: 102__M_Left_ring_finger.BMP	Coincidencia: 78.0952380952381
+ERROR	Imagen: 102__M_Left_ring_finger.BMP
+Imagen: 102__M_Left_ring_finger.BMP	Coincidencia: 91.8918918918919
+Imagen: 102__M_Left_thumb_finger.BMP	Coincidencia: 85.79881656804734
+Imagen: 102__M_Left_thumb_finger.BMP	Coincidencia: 79.76190476190477
+Imagen: 102__M_Left_thumb_finger.BMP	Coincidencia: 94.35897435897435
+ERROR	Imagen: 102__M_Right_index_finger.BMP
+Imagen: 102__M_Right_index_finger.BMP	Coincidencia: 90.22556390977444
+Imagen: 102__M_Right_index_finger.BMP	Coincidencia: 90.22556390977444
+Imagen: 102__M_Right_little_finger.BMP	Coincidencia: 74.19354838709677
+Imagen: 102__M_Right_little_finger.BMP	Coincidencia: 79.01234567901234
+Imagen: 102__M_Right_little_finger.BMP	Coincidencia: 95.6989247311828
+Imagen: 102__M_Right_middle_finger.BMP	Coincidencia: 87.20930232558139
+Imagen: 102__M_Right_middle_finger.BMP	Coincidencia: 72.09302325581395
+Imagen: 102__M_Right_middle_finger.BMP	Coincidencia: 98.83720930232558
+Imagen: 102__M_Right_ring_finger.BMP	Coincidencia: 75.55555555555556
+Imagen: 102__M_Right_ring_finger.BMP	Coincidencia: 72.22222222222221
+Imagen: 102__M_Right_ring_finger.BMP	Coincidencia: 94.44444444444444
+Imagen: 102__M_Right_thumb_finger.BMP	Coincidencia: 88.63636363636364
+ERROR	Imagen: 102__M_Right_thumb_finger.BMP
+Imagen: 102__M_Right_thumb_finger.BMP	Coincidencia: 93.93939393939394
+Imagen: 103__F_Left_index_finger.BMP	Coincidencia: 73.61963190184049
+Imagen: 103__F_Left_index_finger.BMP	Coincidencia: 71.83908045977012
+Imagen: 103__F_Left_index_finger.BMP	Coincidencia: 92.26519337016575
+ERROR	Imagen: 103__F_Left_little_finger.BMP
+ERROR	Imagen: 103__F_Left_little_finger.BMP
+Imagen: 103__F_Left_little_finger.BMP	Coincidencia: 83.73983739837398
+Imagen: 103__F_Left_middle_finger.BMP	Coincidencia: 71.73913043478261
+Imagen: 103__F_Left_middle_finger.BMP	Coincidencia: 79.1044776119403
+Imagen: 103__F_Left_middle_finger.BMP	Coincidencia: 88.1578947368421
+Imagen: 103__F_Left_ring_finger.BMP	Coincidencia: 72.14611872146118
+Imagen: 103__F_Left_ring_finger.BMP	Coincidencia: 75.79908675799086
+Imagen: 103__F_Left_ring_finger.BMP	Coincidencia: 94.52054794520548
+Imagen: 103__F_Left_thumb_finger.BMP	Coincidencia: 83.84615384615385
+Imagen: 103__F_Left_thumb_finger.BMP	Coincidencia: 85.38461538461539
+Imagen: 103__F_Left_thumb_finger.BMP	Coincidencia: 96.92307692307692
+ERROR	Imagen: 103__F_Right_index_finger.BMP
+Imagen: 103__F_Right_index_finger.BMP	Coincidencia: 70.07299270072993
+Imagen: 103__F_Right_index_finger.BMP	Coincidencia: 91.24087591240875
+Imagen: 103__F_Right_little_finger.BMP	Coincidencia: 87.09677419354838
+Imagen: 103__F_Right_middle_finger.BMP	Coincidencia: 79.62962962962963
+Imagen: 103__F_Right_middle_finger.BMP	Coincidencia: 77.77777777777779
+Imagen: 103__F_Right_middle_finger.BMP	Coincidencia: 91.9753086419753
+Imagen: 103__F_Right_ring_finger.BMP	Coincidencia: 79.11392405063292
+Imagen: 103__F_Right_ring_finger.BMP	Coincidencia: 79.75460122699386
+Imagen: 103__F_Right_ring_finger.BMP	Coincidencia: 92.26190476190477
+ERROR	Imagen: 103__F_Right_thumb_finger.BMP
+ERROR	Imagen: 103__F_Right_thumb_finger.BMP
+Imagen: 103__F_Right_thumb_finger.BMP	Coincidencia: 89.28571428571429
+Imagen: 104__M_Left_index_finger.BMP	Coincidencia: 72.91666666666666
+ERROR	Imagen: 104__M_Left_index_finger.BMP
+Imagen: 104__M_Left_index_finger.BMP	Coincidencia: 91.66666666666666
+ERROR	Imagen: 104__M_Left_little_finger.BMP
+Imagen: 104__M_Left_little_finger.BMP	Coincidencia: 89.41176470588236
+Imagen: 104__M_Left_little_finger.BMP	Coincidencia: 88.37209302325581
+ERROR	Imagen: 104__M_Left_middle_finger.BMP
+Imagen: 104__M_Left_middle_finger.BMP	Coincidencia: 91.19170984455958
+Imagen: 104__M_Left_middle_finger.BMP	Coincidencia: 91.19170984455958
+Imagen: 104__M_Left_ring_finger.BMP	Coincidencia: 84.77157360406092
+Imagen: 104__M_Left_ring_finger.BMP	Coincidencia: 81.46067415730337
+Imagen: 104__M_Left_ring_finger.BMP	Coincidencia: 93.03482587064677
+Imagen: 104__M_Left_thumb_finger.BMP	Coincidencia: 81.93832599118943
+Imagen: 104__M_Left_thumb_finger.BMP	Coincidencia: 77.5330396475771
+Imagen: 104__M_Left_thumb_finger.BMP	Coincidencia: 94.7136563876652
+Imagen: 104__M_Right_index_finger.BMP	Coincidencia: 75.59523809523809
+Imagen: 104__M_Right_index_finger.BMP	Coincidencia: 77.97619047619048
+Imagen: 104__M_Right_index_finger.BMP	Coincidencia: 94.64285714285714
+Imagen: 104__M_Right_little_finger.BMP	Coincidencia: 74.8663101604278
+Imagen: 104__M_Right_little_finger.BMP	Coincidencia: 76.47058823529412
+Imagen: 104__M_Right_little_finger.BMP	Coincidencia: 90.37433155080214
+Imagen: 104__M_Right_middle_finger.BMP	Coincidencia: 92.5925925925926
+Imagen: 104__M_Right_middle_finger.BMP	Coincidencia: 77.45098039215686
+Imagen: 104__M_Right_middle_finger.BMP	Coincidencia: 91.98113207547169
+Imagen: 104__M_Right_ring_finger.BMP	Coincidencia: 70.04405286343612
+Imagen: 104__M_Right_ring_finger.BMP	Coincidencia: 80.09049773755656
+Imagen: 104__M_Right_ring_finger.BMP	Coincidencia: 88.64628820960698
+Imagen: 104__M_Right_thumb_finger.BMP	Coincidencia: 83.08823529411765
+ERROR	Imagen: 104__M_Right_thumb_finger.BMP
+Imagen: 104__M_Right_thumb_finger.BMP	Coincidencia: 89.40397350993378
+Imagen: 105__M_Left_index_finger.BMP	Coincidencia: 84.0
+Imagen: 105__M_Left_index_finger.BMP	Coincidencia: 79.0
+Imagen: 105__M_Left_index_finger.BMP	Coincidencia: 97.0
+Imagen: 105__M_Left_little_finger.BMP	Coincidencia: 75.86206896551724
+ERROR	Imagen: 105__M_Left_little_finger.BMP
+Imagen: 105__M_Left_little_finger.BMP	Coincidencia: 89.51612903225806
+Imagen: 105__M_Left_middle_finger.BMP	Coincidencia: 81.76100628930818
+Imagen: 105__M_Left_middle_finger.BMP	Coincidencia: 83.4319526627219
+Imagen: 105__M_Left_middle_finger.BMP	Coincidencia: 88.75739644970415
+Imagen: 105__M_Left_ring_finger.BMP	Coincidencia: 80.50847457627118
+Imagen: 105__M_Left_ring_finger.BMP	Coincidencia: 73.55371900826447
+Imagen: 105__M_Left_ring_finger.BMP	Coincidencia: 88.09523809523809
+Imagen: 105__M_Left_thumb_finger.BMP	Coincidencia: 78.125
+Imagen: 105__M_Left_thumb_finger.BMP	Coincidencia: 73.4375
+Imagen: 105__M_Left_thumb_finger.BMP	Coincidencia: 92.70833333333334
+Imagen: 105__M_Right_index_finger.BMP	Coincidencia: 78.78787878787878
+Imagen: 105__M_Right_index_finger.BMP	Coincidencia: 86.36363636363636
+Imagen: 105__M_Right_index_finger.BMP	Coincidencia: 93.43434343434343
+Imagen: 105__M_Right_little_finger.BMP	Coincidencia: 72.03389830508475
+Imagen: 105__M_Right_little_finger.BMP	Coincidencia: 74.57627118644068
+Imagen: 105__M_Right_little_finger.BMP	Coincidencia: 89.83050847457628
+Imagen: 105__M_Right_middle_finger.BMP	Coincidencia: 76.06837606837607
+Imagen: 105__M_Right_middle_finger.BMP	Coincidencia: 84.5528455284553
+Imagen: 105__M_Right_middle_finger.BMP	Coincidencia: 88.9763779527559
+Imagen: 105__M_Right_ring_finger.BMP	Coincidencia: 76.47058823529412
+ERROR	Imagen: 105__M_Right_ring_finger.BMP
+Imagen: 105__M_Right_ring_finger.BMP	Coincidencia: 93.27731092436974
+Imagen: 105__M_Right_thumb_finger.BMP	Coincidencia: 80.43478260869566
+Imagen: 105__M_Right_thumb_finger.BMP	Coincidencia: 83.92857142857143
+Imagen: 105__M_Right_thumb_finger.BMP	Coincidencia: 93.75
+Imagen: 106__M_Left_index_finger.BMP	Coincidencia: 76.79558011049724
+ERROR	Imagen: 106__M_Left_index_finger.BMP
+Imagen: 106__M_Left_index_finger.BMP	Coincidencia: 89.50276243093923
+Imagen: 106__M_Left_little_finger.BMP	Coincidencia: 77.55102040816327
+Imagen: 106__M_Left_little_finger.BMP	Coincidencia: 86.57718120805369
+Imagen: 106__M_Left_little_finger.BMP	Coincidencia: 89.24050632911393
+Imagen: 106__M_Left_middle_finger.BMP	Coincidencia: 91.42857142857143
+Imagen: 106__M_Left_middle_finger.BMP	Coincidencia: 92.38095238095238
+Imagen: 106__M_Left_middle_finger.BMP	Coincidencia: 96.19047619047619
+Imagen: 106__M_Left_ring_finger.BMP	Coincidencia: 77.10843373493977
+Imagen: 106__M_Left_ring_finger.BMP	Coincidencia: 81.32530120481928
+Imagen: 106__M_Left_ring_finger.BMP	Coincidencia: 92.7710843373494
+Imagen: 106__M_Left_thumb_finger.BMP	Coincidencia: 76.25570776255708
+Imagen: 106__M_Left_thumb_finger.BMP	Coincidencia: 79.47598253275109
+Imagen: 106__M_Left_thumb_finger.BMP	Coincidencia: 89.95633187772926
+Imagen: 106__M_Right_index_finger.BMP	Coincidencia: 83.21678321678321
+ERROR	Imagen: 106__M_Right_index_finger.BMP
+Imagen: 106__M_Right_index_finger.BMP	Coincidencia: 89.93288590604027
+Imagen: 106__M_Right_little_finger.BMP	Coincidencia: 83.33333333333334
+Imagen: 106__M_Right_little_finger.BMP	Coincidencia: 72.02380952380952
+Imagen: 106__M_Right_little_finger.BMP	Coincidencia: 96.80851063829788
+Imagen: 106__M_Right_middle_finger.BMP	Coincidencia: 82.16560509554141
+Imagen: 106__M_Right_middle_finger.BMP	Coincidencia: 74.67532467532467
+Imagen: 106__M_Right_middle_finger.BMP	Coincidencia: 95.54140127388536
+Imagen: 106__M_Right_ring_finger.BMP	Coincidencia: 87.00564971751412
+Imagen: 106__M_Right_ring_finger.BMP	Coincidencia: 80.35714285714286
+Imagen: 106__M_Right_ring_finger.BMP	Coincidencia: 93.12169312169311
+Imagen: 106__M_Right_thumb_finger.BMP	Coincidencia: 76.85185185185185
+Imagen: 106__M_Right_thumb_finger.BMP	Coincidencia: 73.42342342342343
+Imagen: 106__M_Right_thumb_finger.BMP	Coincidencia: 93.64406779661016
+Imagen: 107__M_Left_index_finger.BMP	Coincidencia: 81.9047619047619
+ERROR	Imagen: 107__M_Left_index_finger.BMP
+Imagen: 107__M_Left_index_finger.BMP	Coincidencia: 92.5233644859813
+Imagen: 107__M_Left_little_finger.BMP	Coincidencia: 71.1340206185567
+Imagen: 107__M_Left_little_finger.BMP	Coincidencia: 87.27272727272727
+Imagen: 107__M_Left_little_finger.BMP	Coincidencia: 83.4862385321101
+Imagen: 107__M_Left_middle_finger.BMP	Coincidencia: 77.45098039215686
+Imagen: 107__M_Left_middle_finger.BMP	Coincidencia: 84.40366972477065
+Imagen: 107__M_Left_middle_finger.BMP	Coincidencia: 90.82568807339449
+Imagen: 107__M_Left_ring_finger.BMP	Coincidencia: 77.14285714285715
+ERROR	Imagen: 107__M_Left_ring_finger.BMP
+Imagen: 107__M_Left_ring_finger.BMP	Coincidencia: 93.04347826086956
+ERROR	Imagen: 107__M_Left_thumb_finger.BMP
+Imagen: 107__M_Left_thumb_finger.BMP	Coincidencia: 74.69879518072288
+Imagen: 107__M_Left_thumb_finger.BMP	Coincidencia: 77.31958762886599
+Imagen: 107__M_Right_index_finger.BMP	Coincidencia: 72.72727272727273
+Imagen: 107__M_Right_index_finger.BMP	Coincidencia: 77.27272727272727
+Imagen: 107__M_Right_index_finger.BMP	Coincidencia: 82.0754716981132
+ERROR	Imagen: 107__M_Right_little_finger.BMP
+ERROR	Imagen: 107__M_Right_little_finger.BMP
+Imagen: 107__M_Right_little_finger.BMP	Coincidencia: 77.77777777777779
+Imagen: 107__M_Right_middle_finger.BMP	Coincidencia: 84.88372093023256
+Imagen: 107__M_Right_middle_finger.BMP	Coincidencia: 86.36363636363636
+Imagen: 107__M_Right_middle_finger.BMP	Coincidencia: 96.17486338797814
+Imagen: 107__M_Right_ring_finger.BMP	Coincidencia: 74.4186046511628
+Imagen: 107__M_Right_ring_finger.BMP	Coincidencia: 91.86046511627907
+Imagen: 107__M_Right_ring_finger.BMP	Coincidencia: 96.51162790697676
+Imagen: 107__M_Right_thumb_finger.BMP	Coincidencia: 76.47058823529412
+Imagen: 107__M_Right_thumb_finger.BMP	Coincidencia: 83.66013071895425
+Imagen: 107__M_Right_thumb_finger.BMP	Coincidencia: 89.54248366013073
+Imagen: 108__M_Left_index_finger.BMP	Coincidencia: 86.91099476439791
+Imagen: 108__M_Left_index_finger.BMP	Coincidencia: 83.24324324324324
+Imagen: 108__M_Left_index_finger.BMP	Coincidencia: 95.40816326530613
+Imagen: 108__M_Left_little_finger.BMP	Coincidencia: 72.95081967213115
+Imagen: 108__M_Left_little_finger.BMP	Coincidencia: 83.60655737704919
+Imagen: 108__M_Left_little_finger.BMP	Coincidencia: 88.33333333333333
+Imagen: 108__M_Left_middle_finger.BMP	Coincidencia: 78.94736842105263
+Imagen: 108__M_Left_middle_finger.BMP	Coincidencia: 91.81286549707602
+Imagen: 108__M_Left_middle_finger.BMP	Coincidencia: 94.15204678362574
+Imagen: 108__M_Left_ring_finger.BMP	Coincidencia: 71.66666666666667
+Imagen: 108__M_Left_ring_finger.BMP	Coincidencia: 74.79674796747967
+Imagen: 108__M_Left_ring_finger.BMP	Coincidencia: 93.4959349593496
+Imagen: 108__M_Left_thumb_finger.BMP	Coincidencia: 85.81560283687944
+ERROR	Imagen: 108__M_Left_thumb_finger.BMP
+Imagen: 108__M_Left_thumb_finger.BMP	Coincidencia: 92.85714285714286
+Imagen: 108__M_Right_index_finger.BMP	Coincidencia: 72.13930348258707
+ERROR	Imagen: 108__M_Right_index_finger.BMP
+Imagen: 108__M_Right_index_finger.BMP	Coincidencia: 89.8989898989899
+Imagen: 108__M_Right_little_finger.BMP	Coincidencia: 90.32258064516128
+Imagen: 108__M_Right_little_finger.BMP	Coincidencia: 90.1639344262295
+Imagen: 108__M_Right_little_finger.BMP	Coincidencia: 94.35483870967742
+Imagen: 108__M_Right_middle_finger.BMP	Coincidencia: 74.43181818181817
+ERROR	Imagen: 108__M_Right_middle_finger.BMP
+Imagen: 108__M_Right_middle_finger.BMP	Coincidencia: 91.71270718232044
+Imagen: 108__M_Right_ring_finger.BMP	Coincidencia: 83.33333333333334
+Imagen: 108__M_Right_ring_finger.BMP	Coincidencia: 78.57142857142857
+Imagen: 108__M_Right_ring_finger.BMP	Coincidencia: 91.66666666666666
+Imagen: 108__M_Right_thumb_finger.BMP	Coincidencia: 85.0828729281768
+Imagen: 108__M_Right_thumb_finger.BMP	Coincidencia: 82.87292817679558
+Imagen: 108__M_Right_thumb_finger.BMP	Coincidencia: 96.13259668508287
+Imagen: 109__F_Left_index_finger.BMP	Coincidencia: 77.45664739884393
